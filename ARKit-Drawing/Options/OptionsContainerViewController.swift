@@ -106,6 +106,7 @@ class OptionsContainerViewController: UIViewController, UINavigationControllerDe
                                            ("White", .white),
                                            ("Cyan", .cyan),
         ]
+        
         let options = colors.map { Option(name: $0.0, option: $0.1, showsDisclosureIndicator: true) }
         
         let selector = OptionSelectorViewController(options: options)
